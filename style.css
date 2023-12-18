@@ -1,0 +1,164 @@
+.wrap{
+    padding : auto;
+    margin : auto;
+    font-family: "Times New Roman";
+    background-color: #d1c3a8;
+    height:auto;
+	width: auto;
+    scroll-behavior: smooth;
+
+}
+
+/* pengaturan nav */
+.navbar-nav a {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family:sans-serif;
+}
+.navbar-brand{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family:sans-serif;
+}
+ .navbar-nav .active > .nav-link,
+ .navbar-nav .nav-link.active,
+ .navbar-nav .nav-link.show,
+ .navbar-nav .show > .nav-link{
+    color: #fff;
+}
+.navbar-nav .nav-link{
+    color: #fff;
+}
+/* nav complete */
+
+/* Home */
+.bg-light{
+    background-color: transparent !important;
+}
+
+.carousel-item img{
+    height :650px;
+    width:50%;
+    min-height: 300px;
+}
+
+.carousel-caption{
+    margin-bottom: 200px;
+    font-family: poppins;
+}
+.carousel-caption h5{
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.carousel-caption p{
+    margin: 60;
+    font-size: 20px;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    background: darkorange;
+    color: #fff;
+    border-radius: 50px;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.623);
+    color: white;
+    text-align: center;
+}
+
+/* about */
+.row h1{
+    padding-top: 90px;
+}
+.row img{
+    padding-bottom: 220px;
+    
+}
+.row .content1{
+    margin-top: -200px;
+}
+.row .unik1{
+    margin-top: -200px;
+}
+.row .unik2{
+    margin-top: -200px;
+}
+.row .unik3{
+    margin-top: -200px;
+}
+
+/* ACtivies */
+.container-main{
+    width: auto;
+    margin-bottom: 95px;
+    display: flex;
+    justify-content: center;
+    
+}
+div .row{
+    margin-right: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.card{
+    border: 1px solid #cccc;
+    border-radius: 20px;
+    width:300px;
+    height:400px;
+    overflow: hidden;
+}
+.card .header{
+    height: 150px;
+    background-color: #6666;
+}
+.card .img{
+    height: auto;
+    width: auto;
+}
+
+.card .content{
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: #999;
+    
+}
+/* Contact */
+.box .col-4{
+    width:25%;
+	padding:20px;
+	box-sizing: border-box;
+	float: left;
+}
+
+/* responsif */
+@media only screen and ( max-width: 992px){
+    .navbar-nav{
+        text-align: center;
+        
+        background: rgba(255, 255, 255, 0.055);
+    }
+    .carousel-item img {
+        height: 500px;
+    }
+    .carousel-caption{
+        margin-bottom: 135px;
+    }
+    
+
+}
+@media screen and ( max-width: 768px){
+    .box .col-4 {
+		width:100%;
+		float: none;
+		margin-bottom: 20px;
+	}
+
+   
+}
+
+
